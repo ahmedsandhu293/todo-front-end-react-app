@@ -1,0 +1,49 @@
+.input span{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 96%;
+}
+.input  span input{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 40%;
+}
+.input span input:focus{
+    outline: none;
+    border-color: #B721FF;
+}
+.input span button{
+    background-color: #B721FF;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.input span button:disabled{
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 500px){
+    .input span{
+        flex-direction: column;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .input  span input{
+        padding: 10px;
+        font-size: 14px;
+        width: 50%;
+        margin-bottom: 20px;
+    }   
+    .input span button{
+        padding: 7px;
+        font-size: 14px;
+    }
+}

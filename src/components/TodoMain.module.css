@@ -1,0 +1,19 @@
+.mainTodo{
+    background-color: #fff;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top:30%;
+    transform: translate(-50%,-30%);
+    padding: 50px;
+    border-radius: 25px;
+
+}
+
+@media only screen and (max-width: 500px){
+   .mainTodo{
+    width: 70%;
+    padding: 20px;
+    height: 80vh;
+   }
+}
